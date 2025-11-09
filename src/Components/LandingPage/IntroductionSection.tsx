@@ -13,7 +13,7 @@ export default function IntroductionSection() {
         <div className="lg:w-[46%] md:min-w-96 min-w-full">
           <div className="h-[400px] w-full overflow-hidden rounded-md rounded-tr-[80px] rounded-bl-[80px] flex items-center">
             <img
-              src="/img/packaging/textile-leader.jpg"
+              src="/img/chauffeur-prive.jpg"
               alt="Team meeting"
               className="object-cover min-w-full min-h-full shadow-md"
             />

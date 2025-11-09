@@ -10,117 +10,60 @@ export default function VehiclesPage() {
 
   const vehicles = [
     {
-      name: "Mercedes Classe E",
-      category: "Berline Premium",
-      image:
-        "https://images.unsplash.com/photo-1563720223185-11003d516935?w=800&h=600&fit=crop",
+      name: "Toyota Corolla Hybrid",
+      image: "/img/cars/toyota-corolla-hybrid.jpg",
       passengers: 4,
       luggage: 3,
+      category: "Hybrid Sedan",
       features: [
-        "Climatisation automatique",
-        "GPS intégré",
-        "WiFi gratuit",
-        "Sièges cuir",
-        "Vitres teintées",
-      ],
-      description:
-        "Véhicule idéal pour les trajets d'affaires et transferts aéroport. Confort et élégance garantis.",
-      price: "À partir de 2,50€/km",
-    },
-    {
-      name: "Mercedes Classe S",
-      category: "Berline de Luxe",
-      image:
-        "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=800&h=600&fit=crop",
-      passengers: 4,
-      luggage: 2,
-      features: [
-        "Luxe premium",
-        "Climatisation 4 zones",
-        "GPS premium",
-        "WiFi haut débit",
-        "Bar intégré",
-        "Sièges massants",
-      ],
-      description:
-        "Le summum du luxe pour vos événements spéciaux et déplacements VIP.",
-      price: "À partir de 3,50€/km",
-    },
-    {
-      name: "Mercedes Vito",
-      category: "Minivan Premium",
-      image:
-        "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&h=600&fit=crop",
-      passengers: 8,
-      luggage: 6,
-      features: [
-        "Transport de groupe",
-        "Climatisation",
+        "Eco-friendly",
+        "Air Conditioning",
         "GPS",
         "WiFi",
-        "Espace bagages",
-        "Sièges confort",
+        "Leather Seats",
       ],
-      description:
-        "Parfait pour les déplacements en groupe, transferts familiaux ou événements d'entreprise.",
-      price: "À partir de 3,00€/km",
     },
     {
-      name: "BMW Série 5",
-      category: "Berline Sportive",
-      image:
-        "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=800&h=600&fit=crop",
-      passengers: 4,
-      luggage: 3,
-      features: [
-        "Conduite sportive",
-        "Climatisation",
-        "GPS",
-        "WiFi",
-        "Système audio premium",
-        "Jantes alliage",
-      ],
-      description:
-        "Alliance parfaite entre confort et dynamisme pour vos trajets urbains.",
-      price: "À partir de 2,80€/km",
-    },
-    {
-      name: "Audi A6",
-      category: "Berline Executive",
-      image:
-        "https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=800&h=600&fit=crop",
-      passengers: 4,
-      luggage: 3,
-      features: [
-        "Technologie avancée",
-        "Climatisation",
-        "GPS",
-        "WiFi",
-        "Virtual Cockpit",
-        "Éclairage LED",
-      ],
-      description:
-        "Technologie de pointe et confort premium pour l'homme d'affaires moderne.",
-      price: "À partir de 2,70€/km",
-    },
-    {
-      name: "Tesla Model S",
-      category: "Berline Électrique",
-      image:
-        "https://images.unsplash.com/photo-1617788138017-80ad40651399?w=800&h=600&fit=crop",
+      name: "Hyundai Ioniq 5",
+      image: "/img/cars/Hyundai ionique 5.webp",
       passengers: 5,
       luggage: 2,
+      category: "Electric SUV",
       features: [
-        "100% électrique",
-        "Conduite silencieuse",
-        "Écran tactile",
+        "100% Electric",
+        "Fast Charging",
+        "GPS",
         "WiFi",
-        "Autopilot",
-        "Charge rapide",
+        "Premium Sound",
       ],
-      description:
-        "Transport écologique haut de gamme avec la technologie Tesla.",
-      price: "À partir de 3,20€/km",
+    },
+    {
+      name: "Hyundai Ioniq Hybrid",
+      image: "/img/cars/hyundai-ioniq-5-n_0.jpg",
+      passengers: 5,
+      luggage: 3,
+      category: "Hybrid Sedan",
+      features: [
+        "Eco-friendly",
+        "Air Conditioning",
+        "GPS",
+        "WiFi",
+        "Comfort Seats",
+      ],
+    },
+    {
+      name: "Mercedes-Benz Classe V",
+      image: "/img/cars/Mercedes-Benz-Classe-V.jpg",
+      passengers: 8,
+      luggage: 6,
+      category: "Premium Van",
+      features: [
+        "Group Transport",
+        "Air Conditioning",
+        "GPS",
+        "WiFi",
+        "Spacious",
+      ],
     },
   ];
 
@@ -131,13 +74,14 @@ export default function VehiclesPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-r from-primary to-primary-dark text-white py-20">
           <div className="container mx-auto px-6 lg:px-10 text-center">
+            <p className="text-primary-light font-semibold uppercase tracking-wider text-sm mb-3">
+              {t("vehicles.subtitle")}
+            </p>
             <h1 className="text-4xl lg:text-5xl font-bold mb-6">
-              Notre Flotte Premium
+              {t("vehicles.title")}
             </h1>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
-              Découvrez notre sélection de véhicules haut de gamme,
-              régulièrement entretenus et équipés pour votre confort et votre
-              sécurité
+              {t("vehicles.description")}
             </p>
           </div>
         </section>
@@ -149,73 +93,85 @@ export default function VehiclesPage() {
               {vehicles.map((vehicle, index) => (
                 <div
                   key={index}
-                  className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"
+                  className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 border border-gray-100"
                 >
-                  <div className="relative h-64">
+                  <div className="relative h-64 overflow-hidden">
                     <Image
                       src={vehicle.image}
                       alt={vehicle.name}
                       fill
-                      className="object-cover"
+                      className="object-cover group-hover:scale-110 transition-transform duration-500"
                       sizes="(max-width: 768px) 100vw, 50vw"
                     />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
                     <div className="absolute top-4 left-4">
-                      <span className="bg-primary text-white px-3 py-1 rounded-full text-sm font-semibold">
+                      <span className="bg-primary text-white px-3 py-1 rounded-full text-xs font-semibold">
                         {vehicle.category}
                       </span>
                     </div>
-                    <div className="absolute bottom-4 right-4">
-                      <span className="bg-black/70 text-white px-3 py-1 rounded-full text-sm">
-                        {vehicle.price}
-                      </span>
+                    <div className="absolute bottom-4 left-4 right-4">
+                      <h3 className="text-xl font-bold text-white mb-1">
+                        {vehicle.name}
+                      </h3>
                     </div>
                   </div>
 
                   <div className="p-6">
-                    <h3 className="text-2xl font-bold text-gray-900 mb-2">
-                      {vehicle.name}
-                    </h3>
-                    <p className="text-gray-600 mb-4">{vehicle.description}</p>
-
-                    <div className="flex justify-between items-center mb-4 p-3 bg-gray-50 rounded-lg">
-                      <div className="flex items-center text-gray-600">
+                    <div className="flex justify-between items-center mb-4 pb-4 border-b border-gray-100">
+                      <div className="flex items-center text-gray-700">
                         <svg
-                          className="w-5 h-5 mr-2"
-                          fill="currentColor"
-                          viewBox="0 0 20 20"
+                          className="w-5 h-5 mr-2 text-primary"
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
                         >
-                          <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth={2}
+                            d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
+                          />
                         </svg>
                         <span className="font-semibold">
                           {vehicle.passengers}
                         </span>
-                        <span className="ml-1">passagers</span>
+                        <span className="ml-1 text-sm text-gray-600">
+                          {t("vehicles.passengers")}
+                        </span>
                       </div>
-                      <div className="flex items-center text-gray-600">
+                      <div className="flex items-center text-gray-700">
                         <svg
-                          className="w-5 h-5 mr-2"
-                          fill="currentColor"
-                          viewBox="0 0 20 20"
+                          className="w-5 h-5 mr-2 text-primary"
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
                         >
-                          <path d="M4 4a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2H4zm12 6V8H4v2h12z" />
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth={2}
+                            d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"
+                          />
                         </svg>
                         <span className="font-semibold">{vehicle.luggage}</span>
-                        <span className="ml-1">bagages</span>
+                        <span className="ml-1 text-sm text-gray-600">
+                          {t("vehicles.luggage")}
+                        </span>
                       </div>
                     </div>
 
                     <div className="space-y-2 mb-6">
-                      <h4 className="font-semibold text-gray-900">
-                        Équipements :
+                      <h4 className="font-semibold text-gray-900 mb-3">
+                        {t("vehicles.features")}:
                       </h4>
-                      <div className="grid grid-cols-2 gap-1">
+                      <div className="space-y-2">
                         {vehicle.features.map((feature, featureIndex) => (
                           <div
                             key={featureIndex}
                             className="flex items-center text-sm text-gray-600"
                           >
                             <svg
-                              className="w-3 h-3 mr-2 text-primary"
+                              className="w-4 h-4 mr-2 text-primary flex-shrink-0"
                               fill="currentColor"
                               viewBox="0 0 20 20"
                             >
@@ -225,18 +181,27 @@ export default function VehiclesPage() {
                                 clipRule="evenodd"
                               />
                             </svg>
-                            {feature}
+                            <span>{feature}</span>
                           </div>
                         ))}
                       </div>
                     </div>
 
-                    <button className="w-full bg-primary hover:bg-primary-dark text-white py-3 rounded-lg font-semibold transition-colors duration-300">
-                      Réserver ce Véhicule
-                    </button>
+                    <a
+                      href="/contact"
+                      className="block w-full bg-primary hover:bg-primary-dark text-white py-3 rounded-lg font-semibold transition-colors duration-300 text-center"
+                    >
+                      {t("vehicles.bookVehicle")}
+                    </a>
                   </div>
                 </div>
               ))}
+            </div>
+
+            <div className="text-center mt-12">
+              <p className="text-gray-600 mb-6 text-lg">
+                {t("vehicles.maintenance")}
+              </p>
             </div>
           </div>
         </section>
@@ -246,7 +211,7 @@ export default function VehiclesPage() {
           <div className="container mx-auto px-6 lg:px-10">
             <div className="text-center mb-12">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
-                Pourquoi Choisir Notre Flotte ?
+                {t("vehicles.whyChoose")}
               </h2>
             </div>
 
@@ -266,11 +231,10 @@ export default function VehiclesPage() {
                   </svg>
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">
-                  Qualité Premium
+                  {t("vehicles.premiumQuality")}
                 </h3>
                 <p className="text-gray-600">
-                  Véhicules haut de gamme régulièrement entretenus selon les
-                  standards constructeur
+                  {t("vehicles.premiumQualityDesc")}
                 </p>
               </div>
 
@@ -289,11 +253,10 @@ export default function VehiclesPage() {
                   </svg>
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">
-                  Assurance Complète
+                  {t("vehicles.fullInsurance")}
                 </h3>
                 <p className="text-gray-600">
-                  Tous nos véhicules sont assurés tous risques pour votre
-                  tranquillité d&apos;esprit
+                  {t("vehicles.fullInsuranceDesc")}
                 </p>
               </div>
 
@@ -308,12 +271,9 @@ export default function VehiclesPage() {
                   </svg>
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">
-                  Confort Maximal
+                  {t("vehicles.maxComfort")}
                 </h3>
-                <p className="text-gray-600">
-                  Climatisation, WiFi, sièges cuir et toutes les commodités pour
-                  votre bien-être
-                </p>
+                <p className="text-gray-600">{t("vehicles.maxComfortDesc")}</p>
               </div>
             </div>
           </div>
@@ -323,10 +283,10 @@ export default function VehiclesPage() {
         <section className="py-20 bg-primary text-white">
           <div className="container mx-auto px-6 lg:px-10 text-center">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">
-              Réservez Votre Véhicule Maintenant
+              {t("vehicles.bookNow")}
             </h2>
             <p className="text-xl mb-8 max-w-2xl mx-auto">
-              Contactez-nous pour choisir le véhicule parfait pour votre trajet
+              {t("vehicles.bookNowDesc")}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
@@ -339,7 +299,7 @@ export default function VehiclesPage() {
                 href="/contact"
                 className="border-2 border-white text-white hover:bg-white hover:text-primary px-8 py-3 rounded-lg font-semibold transition-colors duration-300"
               >
-                Demander un Devis
+                {t("vehicles.requestQuote")}
               </a>
             </div>
           </div>

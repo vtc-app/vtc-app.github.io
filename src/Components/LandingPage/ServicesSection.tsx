@@ -4,12 +4,10 @@ import Image from "next/image";
 import {
   TruckIcon,
   BuildingOfficeIcon,
-  HeartIcon,
   MapPinIcon,
   CameraIcon,
 } from "@heroicons/react/24/outline";
 import { useTranslation } from "react-i18next";
-import { useState } from "react";
 
 interface Service {
   name: string;
@@ -21,14 +19,11 @@ interface Service {
 }
 
 function ServiceCard({ service, index }: { service: Service; index: number }) {
-  const [isExpanded, setIsExpanded] = useState(false);
-
-  const toggleExpanded = () => {
-    setIsExpanded(!isExpanded);
-  };
-
   return (
-    <div className="group rounded-2xl bg-white  hover:shadow-xl transition-all duration-300 overflow-hidden border border-primary/30">
+    <a
+      href={service.link}
+      className="group rounded-2xl bg-white hover:shadow-xl transition-all duration-300 overflow-hidden border border-primary/30 block cursor-pointer"
+    >
       <div className="flex">
         {/* Image section - Left side */}
         <div className="w-1/3 relative min-h-full">
@@ -86,24 +81,15 @@ function ServiceCard({ service, index }: { service: Service; index: number }) {
             )}
           </div>
 
-          {/* Action buttons - positioned at bottom */}
+          {/* Action button - positioned at bottom */}
           <div className="flex gap-2 mt-auto">
-            <button
-              onClick={toggleExpanded}
-              className="px-3 py-1.5 text-xs font-semibold text-primary border border-primary rounded-md hover:bg-primary hover:text-white transition-colors duration-200"
-            >
-              {isExpanded ? "Show Less" : "Show More"}
-            </button>
-            <a
-              href={service.link}
-              className="px-3 py-1.5 text-xs font-semibold text-white bg-primary rounded-md hover:bg-primary/90 transition-colors duration-200"
-            >
+            <span className="px-3 py-1.5 text-xs font-semibold text-white bg-primary rounded-md hover:bg-primary/90 transition-colors duration-200 inline-block">
               Learn More
-            </a>
+            </span>
           </div>
         </div>
       </div>
-    </div>
+    </a>
   );
 }
 
@@ -112,12 +98,21 @@ export default function ServicesSection() {
 
   const services = [
     {
+      name: t("services.cityTransport.name"),
+      description: t("services.cityTransport.description"),
+      icon: MapPinIcon,
+      link: "/services/city",
+      image: "/img/cityTransport.jpg",
+      subservices: t("services.cityTransport.subservices", {
+        returnObjects: true,
+      }) as string[],
+    },
+    {
       name: t("services.airportTransfer.name"),
       description: t("services.airportTransfer.description"),
       icon: TruckIcon,
       link: "/services/airport",
-      image:
-        "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=600&h=400&fit=crop",
+      image: "/img/airport.jpg",
       subservices: t("services.airportTransfer.subservices", {
         returnObjects: true,
       }) as string[],
@@ -127,41 +122,18 @@ export default function ServicesSection() {
       description: t("services.businessTransport.description"),
       icon: BuildingOfficeIcon,
       link: "/services/business",
-      image:
-        "https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&h=400&fit=crop",
+      image: "/img/businessTransport.jpg",
       subservices: t("services.businessTransport.subservices", {
         returnObjects: true,
       }) as string[],
     },
-    {
-      name: t("services.eventTransport.name"),
-      description: t("services.eventTransport.description"),
-      icon: HeartIcon,
-      link: "/services/events",
-      image:
-        "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=600&h=400&fit=crop",
-      subservices: t("services.eventTransport.subservices", {
-        returnObjects: true,
-      }) as string[],
-    },
-    {
-      name: t("services.cityTransport.name"),
-      description: t("services.cityTransport.description"),
-      icon: MapPinIcon,
-      link: "/services/city",
-      image:
-        "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=600&h=400&fit=crop",
-      subservices: t("services.cityTransport.subservices", {
-        returnObjects: true,
-      }) as string[],
-    },
+
     {
       name: t("services.touristTransport.name"),
       description: t("services.touristTransport.description"),
       icon: CameraIcon,
       link: "/services/tours",
-      image:
-        "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&h=400&fit=crop",
+      image: "/img/touristTransport1.jpg",
       subservices: t("services.touristTransport.subservices", {
         returnObjects: true,
       }) as string[],
@@ -183,20 +155,20 @@ export default function ServicesSection() {
 
         {/* Services Grid */}
         <div className="space-y-6">
-          {/* First row: 3 services */}
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-            {services.slice(0, 3).map((service, index) => (
+          {/* First row: 2 services */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            {services.slice(0, 2).map((service, index) => (
               <ServiceCard key={service.name} service={service} index={index} />
             ))}
           </div>
 
-          {/* Second row: 2 services centered */}
+          {/* Second row: 2 services */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-            {services.slice(3, 5).map((service, index) => (
+            {services.slice(2, 4).map((service, index) => (
               <ServiceCard
                 key={service.name}
                 service={service}
-                index={index + 3}
+                index={index + 2}
               />
             ))}
           </div>

@@ -2,52 +2,77 @@
 
 import { useTranslation } from "react-i18next";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function VehiclesSection() {
   const { t } = useTranslation("common");
 
   const vehicles = [
     {
-      name: "Mercedes Classe E",
-      image:
-        "https://images.unsplash.com/photo-1563720223185-11003d516935?w=800&h=600&fit=crop",
+      name: "Toyota Corolla Hybrid",
+      image: "/img/cars/toyota-corolla-hybrid.jpg",
       passengers: 4,
       luggage: 3,
-      features: ["Climatisation", "GPS", "WiFi", "Sièges cuir"],
+      category: "Hybrid Sedan",
+      features: [
+        "Eco-friendly",
+        "Air Conditioning",
+        "GPS",
+        "WiFi",
+        "Leather Seats",
+      ],
     },
     {
-      name: "Mercedes Classe S",
-      image:
-        "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=800&h=600&fit=crop",
-      passengers: 4,
+      name: "Hyundai Ioniq 5",
+      image: "/img/cars/Hyundai ionique 5.webp",
+      passengers: 5,
       luggage: 2,
-      features: ["Luxe", "Climatisation", "GPS", "WiFi", "Bar"],
+      category: "Electric SUV",
+      features: [
+        "100% Electric",
+        "Fast Charging",
+        "GPS",
+        "WiFi",
+        "Premium Sound",
+      ],
     },
     {
-      name: "Mercedes Vito",
-      image:
-        "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&h=600&fit=crop",
+      name: "Hyundai Ioniq Hybrid",
+      image: "/img/cars/hyundai-ioniq-5-n_0.jpg",
+      passengers: 5,
+      luggage: 3,
+      category: "Hybrid Sedan",
+      features: [
+        "Eco-friendly",
+        "Air Conditioning",
+        "GPS",
+        "WiFi",
+        "Comfort Seats",
+      ],
+    },
+    {
+      name: "Mercedes-Benz Classe V",
+      image: "/img/cars/Mercedes-Benz-Classe-V.jpg",
       passengers: 8,
       luggage: 6,
-      features: ["Groupe", "Climatisation", "GPS", "WiFi"],
-    },
-    {
-      name: "BMW Série 5",
-      image:
-        "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=800&h=600&fit=crop",
-      passengers: 4,
-      luggage: 3,
-      features: ["Confort", "Climatisation", "GPS", "WiFi"],
+      category: "Premium Van",
+      features: [
+        "Group Transport",
+        "Air Conditioning",
+        "GPS",
+        "WiFi",
+        "Spacious",
+      ],
     },
   ];
 
   return (
-    <section className="py-20 bg-white" id="vehicles">
+    <section className="py-20 bg-gray-50" id="vehicles">
       <div className="container mx-auto px-6 lg:px-10">
         <div className="text-center mb-16">
-          <h3 className="text-primary text-lg font-semibold mb-4">
+          <p className="text-primary font-semibold uppercase tracking-wider text-sm mb-3">
             {t("vehicles.subtitle")}
-          </h3>
+          </p>
           <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
             {t("vehicles.title")}
           </h2>
@@ -56,57 +81,84 @@ export default function VehiclesSection() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {vehicles.map((vehicle, index) => (
-            <div
+            <Link
               key={index}
-              className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"
+              href="/vehicles"
+              className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 border border-gray-100"
             >
-              <div className="relative h-48">
+              <div className="relative h-56 overflow-hidden">
                 <Image
                   src={vehicle.image}
                   alt={vehicle.name}
                   fill
-                  className="object-cover"
+                  className="object-cover group-hover:scale-110 transition-transform duration-500"
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
                 />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
+                <div className="absolute top-4 left-4">
+                  <span className="bg-primary text-white px-3 py-1 rounded-full text-xs font-semibold">
+                    {vehicle.category}
+                  </span>
+                </div>
+                <div className="absolute bottom-4 left-4 right-4">
+                  <h3 className="text-xl font-bold text-white mb-1">
+                    {vehicle.name}
+                  </h3>
+                </div>
               </div>
-              <div className="p-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">
-                  {vehicle.name}
-                </h3>
 
-                <div className="flex justify-between items-center mb-4">
-                  <div className="flex items-center text-gray-600">
+              <div className="p-6">
+                <div className="flex justify-between items-center mb-4 pb-4 border-b border-gray-100">
+                  <div className="flex items-center text-gray-700">
                     <svg
-                      className="w-5 h-5 mr-2"
-                      fill="currentColor"
-                      viewBox="0 0 20 20"
+                      className="w-5 h-5 mr-2 text-primary"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
                     >
-                      <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
+                      />
                     </svg>
-                    {vehicle.passengers} passagers
+                    <span className="font-semibold">{vehicle.passengers}</span>
+                    <span className="ml-1 text-sm text-gray-600">
+                      {t("vehicles.passengers")}
+                    </span>
                   </div>
-                  <div className="flex items-center text-gray-600">
+                  <div className="flex items-center text-gray-700">
                     <svg
-                      className="w-5 h-5 mr-2"
-                      fill="currentColor"
-                      viewBox="0 0 20 20"
+                      className="w-5 h-5 mr-2 text-primary"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
                     >
-                      <path d="M4 4a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2H4zm12 6V8H4v2h12z" />
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"
+                      />
                     </svg>
-                    {vehicle.luggage} bagages
+                    <span className="font-semibold">{vehicle.luggage}</span>
+                    <span className="ml-1 text-sm text-gray-600">
+                      {t("vehicles.luggage")}
+                    </span>
                   </div>
                 </div>
 
-                <div className="space-y-1">
-                  {vehicle.features.map((feature, featureIndex) => (
+                <div className="space-y-2">
+                  {vehicle.features.slice(0, 3).map((feature, featureIndex) => (
                     <div
                       key={featureIndex}
                       className="flex items-center text-sm text-gray-600"
                     >
                       <svg
-                        className="w-4 h-4 mr-2 text-primary"
+                        className="w-4 h-4 mr-2 text-primary flex-shrink-0"
                         fill="currentColor"
                         viewBox="0 0 20 20"
                       >
@@ -116,22 +168,25 @@ export default function VehiclesSection() {
                           clipRule="evenodd"
                         />
                       </svg>
-                      {feature}
+                      <span className="truncate">{feature}</span>
                     </div>
                   ))}
                 </div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
 
         <div className="text-center mt-12">
-          <p className="text-gray-600 mb-6">
-            Tous nos véhicules sont régulièrement entretenus et assurés
+          <p className="text-gray-600 mb-6 text-lg">
+            {t("vehicles.maintenance")}
           </p>
-          <button className="bg-primary hover:bg-primary-dark text-white px-8 py-3 rounded-lg font-semibold transition-colors duration-300">
+          <Link
+            href="/vehicles"
+            className="inline-block bg-primary hover:bg-primary-dark text-white px-8 py-3 rounded-lg font-semibold transition-colors duration-300 shadow-lg hover:shadow-xl"
+          >
             {t("vehicles.cta")}
-          </button>
+          </Link>
         </div>
       </div>
     </section>

@@ -15,7 +15,6 @@ import React from "react";
 import {
   CubeIcon,
   CogIcon,
-  BeakerIcon,
   TruckIcon,
   WrenchScrewdriverIcon,
   XMarkIcon,
@@ -38,11 +37,6 @@ const getServices = (t: any) => [
     name: t("services.businessTransport.name"),
     href: "/services/business",
     icon: CogIcon,
-  },
-  {
-    name: t("services.eventTransport.name"),
-    href: "/services/events",
-    icon: BeakerIcon,
   },
   {
     name: t("services.cityTransport.name"),
@@ -77,13 +71,13 @@ export default function NavBar() {
           <a href={"/"} className="-m-1.5 p-1.5">
             <img
               alt="VTC Marseille Premium Logo"
-              src="/img/logos/vtc-logo.png"
+              src="/img/logos/logo-full.png"
               className="h-8 w-auto lg:hidden"
             />
             <img
               alt="VTC Marseille Premium Logo"
-              src="/img/logos/vtc-logo.png"
-              className="h-12 w-[100px] lg:block hidden"
+              src="/img/logos/logo-full.png"
+              className="h-12 w-[230px] lg:block hidden"
             />
           </a>
         </div>
@@ -236,10 +230,10 @@ export default function NavBar() {
           >
             <div className="flex items-center justify-between">
               <a href="#" className="-m-1.5 p-1.5">
-                <span className="sr-only">Your Company</span>
+                <span className="sr-only">VTC Marseille</span>
                 <img
                   alt=""
-                  src="/img/logos/logo-no-title.png"
+                  src="/img/logos/logo-full.png"
                   className="h-8 w-auto"
                 />
               </a>

@@ -3,11 +3,18 @@
   "title": "VTC Marseille Premium",
   "description": "Service VTC haut de gamme à Marseille",
   "hero": {
+    "greeting": "Salut !",
     "title": "VTC MARSEILLE",
-    "titleHighlight": "TRANSPORT PREMIUM",
-    "subtitle": "À votre service",
+    "titleHighlight": "EST LÀ POUR ÊTRE VOTRE",
+    "subtitle": "ASSISTANCE",
     "description": "Service VTC professionnel à Marseille et région PACA. Transferts aéroport, courses urbaines, événements privés. Véhicules haut de gamme, chauffeurs expérimentés, disponible 24h/24.",
-    "cta": "Réserver Maintenant"
+    "cta": "Discutons-en",
+    "availability": "Disponibilité 24/7",
+    "stats": {
+      "projects": "2K+ Courses",
+      "satisfaction": "4.8 Satisfaction",
+      "experience": "10 Ans d'Expérience"
+    }
   },
   "introduction": {
     "subtitle": "À propos de VTC Marseille Premium",
@@ -26,6 +33,12 @@
         "Marseille → Aéroport",
         "Suivi des vols",
         "Accueil personnalisé"
+      ],
+      "features": [
+        "Suivi des vols en temps réel",
+        "Accueil personnalisé",
+        "Tarif fixe garanti",
+        "Véhicules premium"
       ]
     },
     "businessTransport": {
@@ -36,6 +49,12 @@
         "Transport régulier",
         "Mise à disposition",
         "Facturation entreprise"
+      ],
+      "features": [
+        "Ponctualité garantie",
+        "Facturation entreprise",
+        "Chauffeurs discrets",
+        "WiFi à bord"
       ]
     },
     "eventTransport": {
@@ -56,29 +75,89 @@
         "Gares",
         "Rendez-vous médicaux",
         "Shopping"
+      ],
+      "features": [
+        "Réservation immédiate",
+        "Tarifs compétitifs",
+        "Connaissance locale",
+        "Paiement sécurisé"
       ]
     },
     "touristTransport": {
       "name": "Tours Touristiques",
-      "description": "Découverte de Marseille et de la région PACA avec chauffeur guide",
+      "description": "Découverte de Marseille et de la région PACA avec chauffeur guide. Explorez les Calanques, Cassis, Aix-en-Provence et autres destinations emblématiques avec des itinéraires personnalisés.",
       "subservices": [
         "Calanques",
         "Cassis",
         "Aix-en-Provence",
         "Visites guidées"
+      ],
+      "features": [
+        "Circuits personnalisés",
+        "Chauffeur guide",
+        "Arrêts photos",
+        "Découverte locale"
       ]
+    },
+    "page": {
+      "heroTitle": "Nos Services VTC à Marseille",
+      "heroDescription": "Découvrez notre gamme complète de services de transport premium adaptés à tous vos besoins de déplacement dans la région marseillaise",
+      "learnMore": "En Savoir Plus",
+      "ctaTitle": "Prêt à Réserver Votre Transport ?",
+      "ctaDescription": "Contactez-nous dès maintenant pour une réservation ou un devis personnalisé",
+      "contactForm": "Formulaire de Contact",
+      "serviceDetails": "Détails du Service",
+      "bookNow": "Réserver Maintenant"
+    },
+    "detail": {
+      "airportTransfer": {
+        "description": "Service de transfert aéroport professionnel disponible 24h/24 depuis et vers l'aéroport Marseille Provence."
+      },
+      "businessTransport": {
+        "description": "Solutions de transport professionnel pour vos rendez-vous d'affaires et déplacements professionnels à Marseille et dans la région PACA."
+      },
+      "cityTransport": {
+        "description": "Service de transport urbain à la demande à Marseille et dans sa région pour tous vos besoins de déplacement en ville."
+      },
+      "touristTransport": {
+        "description": "Découvrez Marseille et la région PACA avec nos chauffeurs guides professionnels. Explorez des destinations emblématiques comme les Calanques, Cassis, Aix-en-Provence et bien plus encore avec des itinéraires personnalisés adaptés à vos intérêts."
+      }
     }
   },
   "vehicles": {
     "subtitle": "Notre Flotte",
     "title": "Véhicules Premium",
     "description": "Une flotte moderne et entretenue pour votre confort et votre sécurité",
-    "cta": "Voir Tous les Véhicules"
+    "cta": "Voir Tous les Véhicules",
+    "passengers": "Passagers",
+    "luggage": "Bagages",
+    "maintenance": "Tous nos véhicules sont régulièrement entretenus et assurés",
+    "features": "Équipements",
+    "bookVehicle": "Réserver ce Véhicule",
+    "whyChoose": "Pourquoi Choisir Notre Flotte ?",
+    "premiumQuality": "Qualité Premium",
+    "premiumQualityDesc": "Véhicules haut de gamme régulièrement entretenus selon les standards constructeur",
+    "fullInsurance": "Assurance Complète",
+    "fullInsuranceDesc": "Tous nos véhicules sont assurés tous risques pour votre tranquillité d'esprit",
+    "maxComfort": "Confort Maximal",
+    "maxComfortDesc": "Climatisation, WiFi, sièges cuir et toutes les commodités pour votre bien-être",
+    "bookNow": "Réservez Votre Véhicule Maintenant",
+    "bookNowDesc": "Contactez-nous pour choisir le véhicule parfait pour votre trajet",
+    "requestQuote": "Demander un Devis"
   },
   "drivers": {
     "subtitle": "Notre Équipe",
     "title": "Chauffeurs Professionnels",
-    "description": "Des chauffeurs expérimentés, discrets et ponctuels à votre service"
+    "description": "Des chauffeurs expérimentés, discrets et ponctuels à votre service",
+    "languages": "Langues",
+    "contact": "Contact",
+    "call": "Appeler",
+    "email": "Email",
+    "reviews": "avis",
+    "professional": "Tous nos chauffeurs sont professionnels, ponctuels et discrets",
+    "professionalLicense": "Permis Professionnel",
+    "safetyTraining": "Formation Sécurité",
+    "localKnowledge": "Connaissance de la Région"
   },
   "reviews": {
     "subtitle": "Témoignages",
@@ -110,16 +189,127 @@
     "title": "Contactez-Nous",
     "subtitle": "Besoin d'un VTC à Marseille ?",
     "description": "Notre équipe est disponible 24h/24 pour répondre à vos besoins de transport. Contactez-nous pour une réservation ou des informations.",
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "phone": "Téléphone",
+    "email": "Email",
+    "subject": "Sujet",
+    "message": "Message",
+    "position": "Lieu de prise en charge",
+    "destination": "Destination",
     "namePlaceholder": "Votre nom",
     "phonePlaceholder": "Votre téléphone",
     "emailPlaceholder": "votre.email@example.com",
+    "positionPlaceholder": "Entrez l'adresse de prise en charge",
+    "destinationPlaceholder": "Entrez l'adresse de destination",
     "messagePlaceholder": "Parlez-nous de votre trajet...",
+    "selectSubject": "Sélectionnez un sujet",
+    "subjectOptions": {
+      "vtc": "Besoin d'un VTC à Marseille",
+      "booking": "Demande de réservation",
+      "information": "Renseignements généraux",
+      "reclamation": "Réclamation",
+      "other": "Autre"
+    },
     "send": "Envoyer le Message",
     "sending": "Envoi...",
     "successTitle": "Message Envoyé avec Succès !",
     "successMessage": "Merci de nous avoir contactés. Nous vous répondrons dans les plus brefs délais.",
     "errorTitle": "Erreur d'Envoi",
-    "errorMessage": "Désolé, une erreur est survenue lors de l'envoi de votre message. Veuillez réessayer."
+    "errorMessage": "Désolé, une erreur est survenue lors de l'envoi de votre message. Veuillez réessayer.",
+    "contactInfo": "Informations de Contact",
+    "address": "Adresse"
+  },
+  "about": {
+    "subtitle": "À Propos de Nous",
+    "title": "Qui Sommes-Nous",
+    "heroDescription": "Votre partenaire de confiance pour des services de transport premium à Marseille et dans la région PACA",
+    "story": {
+      "title": "Notre Histoire",
+      "paragraph1": "VTC Marseille Premium a été fondé avec une mission simple : fournir des services de transport exceptionnels qui allient luxe, fiabilité et professionnalisme. Depuis notre création, nous nous engageons à dépasser les attentes de nos clients.",
+      "paragraph2": "Avec plus de 10 ans d'expérience dans le transport de personnes, nous avons construit une réputation d'excellence dans la région marseillaise. Notre équipe de chauffeurs professionnels et notre flotte premium garantissent que chaque voyage est confortable, sûr et ponctuel.",
+      "paragraph3": "Nous sommes spécialisés dans les transferts aéroport, le transport d'affaires, les courses urbaines et les tours touristiques, servant à la fois les clients individuels et les partenaires d'entreprise dans toute la région PACA.",
+      "imageAlt": "Chauffeur VTC professionnel"
+    },
+    "mission": {
+      "title": "Notre Mission",
+      "description": "Fournir des services de transport premium, fiables et professionnels qui dépassent les attentes de nos clients tout en maintenant les plus hauts standards de sécurité, confort et discrétion.",
+      "vision": {
+        "title": "Notre Vision",
+        "description": "Devenir le leader des services VTC dans la région marseillaise, reconnu pour notre excellence et notre engagement envers la satisfaction client."
+      },
+      "excellence": {
+        "title": "Excellence",
+        "description": "Nous visons l'excellence dans tous les aspects de notre service, de l'entretien des véhicules au professionnalisme des chauffeurs."
+      },
+      "commitment": {
+        "title": "Notre Engagement",
+        "description": "Nous nous engageons à fournir un service personnalisé adapté aux besoins et préférences uniques de chaque client."
+      }
+    },
+    "values": {
+      "title": "Nos Valeurs",
+      "description": "Les principes qui guident tout ce que nous faisons",
+      "punctuality": {
+        "title": "Ponctualité",
+        "description": "Nous comprenons l'importance du temps. Nos chauffeurs sont formés pour arriver à l'heure, à chaque fois, garantissant que vous ne manquiez jamais un rendez-vous ou un vol."
+      },
+      "safety": {
+        "title": "Sécurité Avant Tout",
+        "description": "Votre sécurité est notre priorité absolue. Tous nos véhicules sont régulièrement entretenus, entièrement assurés, et nos chauffeurs suivent une formation rigoureuse en sécurité."
+      },
+      "quality": {
+        "title": "Qualité Premium",
+        "description": "Nous maintenons une flotte de véhicules premium équipés des dernières commodités pour assurer votre confort tout au long de votre voyage."
+      },
+      "service": {
+        "title": "Service Exceptionnel",
+        "description": "Nos chauffeurs professionnels sont multilingues, discrets et dévoués à vous offrir une expérience de voyage exceptionnelle."
+      }
+    },
+    "stats": {
+      "title": "VTC Marseille en Chiffres",
+      "description": "Plus de 10 ans d'expertise dans le transport de personnes avec un service de qualité reconnu dans toute la région marseillaise",
+      "experience": "Années d'Expérience",
+      "vehicles": "Véhicules Premium",
+      "drivers": "Chauffeurs Professionnels",
+      "clients": "Clients Satisfaits"
+    },
+    "whyChoose": {
+      "title": "Pourquoi Nous Choisir ?",
+      "description": "Ce qui nous distingue de la concurrence",
+      "reasons": {
+        "experience": {
+          "title": "10+ Ans d'Expérience",
+          "description": "Avec plus d'une décennie dans l'industrie, nous avons l'expertise et les connaissances pour répondre à tous les besoins de transport."
+        },
+        "fleet": {
+          "title": "Flotte Premium",
+          "description": "Notre flotte moderne comprend des véhicules hybrides et électriques, tous régulièrement entretenus et équipés des dernières commodités."
+        },
+        "drivers": {
+          "title": "Chauffeurs Professionnels",
+          "description": "Nos chauffeurs multilingues sont des professionnels licenciés avec une formation approfondie en sécurité et service client."
+        },
+        "availability": {
+          "title": "Disponibilité 24/7",
+          "description": "Nous sommes disponibles 24h/24 et 7j/7 pour vous servir, que ce soit pour des transferts aéroport tôt le matin ou des événements tard le soir."
+        },
+        "pricing": {
+          "title": "Tarifs Compétitifs",
+          "description": "Nous proposons des tarifs transparents et compétitifs sans frais cachés, vous garantissant le meilleur rapport qualité-prix."
+        },
+        "coverage": {
+          "title": "Zone de Couverture Étendue",
+          "description": "Nous desservons toute la région marseillaise et PACA, y compris les transferts aéroport, les courses urbaines et les tours touristiques."
+        }
+      }
+    },
+    "cta": {
+      "title": "Prêt à Découvrir le Transport Premium ?",
+      "description": "Contactez-nous dès aujourd'hui pour réserver votre trajet ou demander un devis personnalisé",
+      "contactButton": "Contactez-Nous"
+    }
   },
   "footer": {
     "description": "VTC Marseille Premium - Service de transport avec chauffeur professionnel. Spécialisés dans les transferts aéroport, transport d'affaires et événements privés dans la région marseillaise.",

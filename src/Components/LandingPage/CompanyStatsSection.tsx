@@ -85,13 +85,13 @@ export default function CompanyStatsSection() {
       hasPlus: false,
     },
     {
-      number: 15,
+      number: 4,
       label: "Véhicules premium",
       suffix: "",
       hasPlus: false,
     },
     {
-      number: 8,
+      number: 4,
       label: "Chauffeurs professionnels",
       suffix: "",
       hasPlus: false,

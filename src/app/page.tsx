@@ -28,8 +28,8 @@ export default function Home() {
       <IntroductionSection />
       <ServicesSection />
       <CompanyStatsSection />
-      <VehiclesSection />
       <DriversSection />
+      <VehiclesSection />
       <CoverageAreaSection />
       <ReviewsSection />
       <ReservationSection />

@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Nimetex Groupe",
+  title: "VTC Marseille Premium",
   description: "A website about a textile business",
 };
 

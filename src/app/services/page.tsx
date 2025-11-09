@@ -9,68 +9,39 @@ export default function ServicesPage() {
 
   const services = [
     {
-      title: "Transfert Aéroport",
-      description:
-        "Service navette depuis/vers l'aéroport Marseille Provence 24h/24",
+      title: t("services.airportTransfer.name"),
+      description: t("services.airportTransfer.description"),
       image: "/img/services/airport-transfer.jpg",
-      features: [
-        "Suivi des vols en temps réel",
-        "Accueil personnalisé",
-        "Tarif fixe garanti",
-        "Véhicules premium",
-      ],
+      features: t("services.airportTransfer.features", {
+        returnObjects: true,
+      }) as string[],
       href: "/services/airport",
     },
     {
-      title: "Transport Professionnel",
-      description:
-        "Solutions de transport pour vos rendez-vous d'affaires et déplacements professionnels",
+      title: t("services.businessTransport.name"),
+      description: t("services.businessTransport.description"),
       image: "/img/services/business-transport.jpg",
-      features: [
-        "Ponctualité garantie",
-        "Facturation entreprise",
-        "Chauffeurs discrets",
-        "WiFi à bord",
-      ],
+      features: t("services.businessTransport.features", {
+        returnObjects: true,
+      }) as string[],
       href: "/services/business",
     },
     {
-      title: "Événements Privés",
-      description:
-        "Transport pour vos événements privés, mariages et occasions spéciales",
-      image: "/img/services/event-transport.jpg",
-      features: [
-        "Véhicules de luxe",
-        "Service sur mesure",
-        "Décoration possible",
-        "Chauffeur en costume",
-      ],
-      href: "/services/events",
-    },
-    {
-      title: "Courses Urbaines",
-      description:
-        "Déplacements dans Marseille et sa région avec service à la demande",
+      title: t("services.cityTransport.name"),
+      description: t("services.cityTransport.description"),
       image: "/img/services/city-transport.jpg",
-      features: [
-        "Réservation immédiate",
-        "Tarifs compétitifs",
-        "Connaissance locale",
-        "Paiement sécurisé",
-      ],
+      features: t("services.cityTransport.features", {
+        returnObjects: true,
+      }) as string[],
       href: "/services/city",
     },
     {
-      title: "Tours Touristiques",
-      description:
-        "Découverte de Marseille et de la région PACA avec chauffeur guide",
+      title: t("services.touristTransport.name"),
+      description: t("services.touristTransport.description"),
       image: "/img/services/tourist-transport.jpg",
-      features: [
-        "Circuits personnalisés",
-        "Chauffeur guide",
-        "Arrêts photos",
-        "Découverte locale",
-      ],
+      features: t("services.touristTransport.features", {
+        returnObjects: true,
+      }) as string[],
       href: "/services/tours",
     },
   ];
@@ -83,12 +54,10 @@ export default function ServicesPage() {
         <section className="bg-gradient-to-r from-primary to-primary-dark text-white py-20">
           <div className="container mx-auto px-6 lg:px-10 text-center">
             <h1 className="text-4xl lg:text-5xl font-bold mb-6">
-              Nos Services VTC à Marseille
+              {t("services.page.heroTitle")}
             </h1>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
-              Découvrez notre gamme complète de services de transport premium
-              adaptés à tous vos besoins de déplacement dans la région
-              marseillaise
+              {t("services.page.heroDescription")}
             </p>
           </div>
         </section>
@@ -98,9 +67,10 @@ export default function ServicesPage() {
           <div className="container mx-auto px-6 lg:px-10">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {services.map((service, index) => (
-                <div
+                <a
                   key={index}
-                  className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"
+                  href={service.href}
+                  className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 block cursor-pointer"
                 >
                   <div className="relative h-48">
                     <img
@@ -139,14 +109,11 @@ export default function ServicesPage() {
                       ))}
                     </ul>
 
-                    <a
-                      href={service.href}
-                      className="inline-block bg-primary hover:bg-primary-dark text-white px-6 py-2 rounded-lg font-semibold transition-colors duration-300"
-                    >
-                      En Savoir Plus
-                    </a>
+                    <span className="inline-block bg-primary hover:bg-primary-dark text-white px-6 py-2 rounded-lg font-semibold transition-colors duration-300">
+                      {t("services.page.learnMore")}
+                    </span>
                   </div>
-                </div>
+                </a>
               ))}
             </div>
           </div>
@@ -156,11 +123,10 @@ export default function ServicesPage() {
         <section className="py-20 bg-primary text-white">
           <div className="container mx-auto px-6 lg:px-10 text-center">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">
-              Prêt à Réserver Votre Transport ?
+              {t("services.page.ctaTitle")}
             </h2>
             <p className="text-xl mb-8 max-w-2xl mx-auto">
-              Contactez-nous dès maintenant pour une réservation ou un devis
-              personnalisé
+              {t("services.page.ctaDescription")}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
@@ -173,7 +139,7 @@ export default function ServicesPage() {
                 href="/contact"
                 className="border-2 border-white text-white hover:bg-white hover:text-primary px-8 py-3 rounded-lg font-semibold transition-colors duration-300"
               >
-                Formulaire de Contact
+                {t("services.page.contactForm")}
               </a>
             </div>
           </div>

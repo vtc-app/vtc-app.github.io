@@ -29,14 +29,14 @@ export default function ReservationSection() {
         <div className="grid grid-cols-6 grid-rows-7 items-end max-w-[700px] max-h-[400px] gap-4">
           <div className="col-start-4 col-end-7 row-start-1 row-end-8 h-full w-full overflow-hidden rounded-full">
             <img
-              src="https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=200&h=150&fit=crop"
+              src="/img/vtc2.jpg"
               alt="VTC Mercedes luxury car"
               className="object-cover min-w-full min-h-full shadow-md"
             />
           </div>
           <div className="col-start-1 col-end-4 row-start-4 row-end-8 h-full w-full overflow-hidden rounded-md rounded-tr-[120px] rounded-bl-[120px]">
             <img
-              src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=200&h=150&fit=crop"
+              src="/img/vtc3.jpg"
               alt="Airport transfer service"
               className="object-cover shadow-md"
             />
