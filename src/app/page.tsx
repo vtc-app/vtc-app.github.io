@@ -9,7 +9,7 @@ import React from "react";
 import HeroSection from "@/Components/LandingPage/HeroSection";
 import IntroductionSection from "@/Components/LandingPage/IntroductionSection";
 import ServicesSection from "@/Components/LandingPage/ServicesSection";
-import CompanyStatsSection from "@/Components/LandingPage/CompanyStatsSection";
+// import CompanyStatsSection from "@/Components/LandingPage/CompanyStatsSection";
 import VehiclesSection from "@/Components/LandingPage/VehiclesSection";
 import DriversSection from "@/Components/LandingPage/DriversSection";
 import CoverageAreaSection from "@/Components/LandingPage/CoverageAreaSection";
