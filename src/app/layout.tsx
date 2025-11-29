@@ -26,9 +26,6 @@ const getMetadataByLang = (lang: string): Metadata => {
     en: "Premium, reliable and professional transfer services in Marseille and PACA region.",
   };
 
-  const keywords =
-    "VTC, Marseille, transfert, luxe, professionnel, aéroport, tourisme, business";
-
   // GitHub Pages base URL
   const baseUrl = "https://vtc-app.github.io";
   const imageUrl = `${baseUrl}/opengraph-image.jpg`;
@@ -52,7 +49,12 @@ const getMetadataByLang = (lang: string): Metadata => {
       "VTC Gare Saint-Charles",
       "Excursion touristique Provence",
       "VTC Sud 13",
-      
+      "VTC App",
+      "VTC App Marseille",
+      "massilia drive",
+      "massilia drive marseille",
+      "massilia drive provence",
+
       // English Keywords
       "VTC Marseille",
       "Private driver Marseille",
@@ -65,7 +67,12 @@ const getMetadataByLang = (lang: string): Metadata => {
       "Event transport Provence",
       "VTC Saint-Charles Station",
       "Provence sightseeing tours",
-      "Luxury travel Marseille"
+      "Luxury travel Marseille",
+      "VTC App",
+      "VTC App Marseille",
+      "massilia drive",
+      "massilia drive marseille",
+      "massilia drive provence",
     ],
     openGraph: {
       title: titles[lang as keyof typeof titles] || titles["fr"],

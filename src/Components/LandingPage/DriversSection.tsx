@@ -41,8 +41,7 @@ export default function DriversSection() {
     },
     {
       name: "Djamel mechia",
-      image:
-        "/img/drivers/Djammel.jpg",
+      image: "/img/drivers/Djammel.jpg",
       languages: ["Français", "Arabe"],
       speciality: "Chauffeur VTC - Événements de Luxe, Mariages",
       rating: 4.8,
@@ -58,8 +57,7 @@ export default function DriversSection() {
     },
     {
       name: "Riadh Zigham",
-      image:
-        "/img/drivers/Riadh.jpg",
+      image: "/img/drivers/Riadh.jpg",
       languages: ["Français", "Arabe"],
       speciality: "Chauffeur VTC - Transfert Professionnel, Cadres",
       rating: 4.98,

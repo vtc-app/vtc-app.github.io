@@ -108,10 +108,7 @@ export default function Footer() {
           >
             {t("footer.termsAndConditions")}
           </Link>
-          <Link
-            href="/about"
-            className="hover:text-primary transition-colors"
-          >
+          <Link href="/about" className="hover:text-primary transition-colors">
             {t("footer.about")}
           </Link>
         </div>
