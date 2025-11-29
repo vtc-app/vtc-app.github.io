@@ -1,6 +1,6 @@
 {
   "welcome": "Bienvenue",
-  "title": "MassiliaDrive",
+  "title": "VTC Sud 13",
   "description": "Service VTC haut de gamme à Marseille",
   "hero": {
     "greeting": "Salut !",
@@ -17,9 +17,9 @@
     }
   },
   "introduction": {
-    "subtitle": "À propos de MassiliaDrive",
+    "subtitle": "À propos de VTC Sud 13",
     "title": "VOTRE CHAUFFEUR PRIVÉ À MARSEILLE",
-    "description": "MassiliaDrive est votre partenaire de confiance pour tous vos déplacements dans la région marseillaise. Chauffeurs expérimentés, véhicules premium et service haut de gamme pour votre confort, ponctualité et discrétion.",
+    "description": "VTC Sud 13 est votre partenaire de confiance pour tous vos déplacements dans la région marseillaise. Chauffeurs expérimentés, véhicules premium et service haut de gamme pour votre confort, ponctualité et discrétion.",
     "cta": "Découvrir Nos Services"
   },
   "services": {
@@ -227,7 +227,7 @@
     "heroDescription": "Votre partenaire de confiance pour des services de transfert premium à Marseille et dans la région PACA",
     "story": {
       "title": "Notre Histoire",
-      "paragraph1": "MassiliaDrive a été fondé avec une mission simple : fournir des services de transfert exceptionnels qui allient luxe, fiabilité et professionnalisme. Depuis notre création, nous nous engageons à dépasser les attentes de nos clients.",
+      "paragraph1": "VTC Sud 13 a été fondé avec une mission simple : fournir des services de transfert exceptionnels qui allient luxe, fiabilité et professionnalisme. Depuis notre création, nous nous engageons à dépasser les attentes de nos clients.",
       "paragraph2": "Avec des chauffeurs expérimentés dans le transfert de personnes, nous avons construit une réputation d'excellence dans la région marseillaise. Notre équipe de chauffeurs professionnels et notre flotte premium garantissent que chaque voyage est confortable, sûr et ponctuel.",
       "paragraph3": "Nous sommes spécialisés dans les transferts aéroport, le transfert d'affaires, les courses urbaines et les tours touristiques, servant à la fois les clients individuels et les partenaires d'entreprise dans toute la région PACA.",
       "imageAlt": "Chauffeur VTC professionnel"
@@ -313,7 +313,7 @@
     }
   },
   "footer": {
-    "description": "MassiliaDrive - Service de transfert avec chauffeur professionnel. Spécialisés dans les transferts aéroport, transfert d'affaires et événements privés dans la région marseillaise.",
+    "description": "VTC Sud 13 - Service de transfert avec chauffeur professionnel. Spécialisés dans les transferts aéroport, transfert d'affaires et événements privés dans la région marseillaise.",
     "contactUs": "Contactez-nous",
     "services": "Services",
     "company": "Entreprise",
@@ -321,7 +321,9 @@
     "about": "À propos",
     "vehicles": "Véhicules",
     "contact": "Contact",
-    "copyright": "© {{year}} MassiliaDrive. Tous droits réservés."
+    "privacyPolicy": "Politique de Confidentialité",
+    "termsAndConditions": "Conditions Générales",
+    "copyright": "© {{year}} VTC Sud 13. Tous droits réservés."
   },
 
   "privacyPolicy": {
@@ -331,52 +333,104 @@
     "lastUpdated": "Dernière mise à jour :",
     "sections": {
       "1": {
-        "title": "1. Collecte des données",
-        "content": "Nous ne collectons aucune donnée personnelle via notre site. Les informations de contact sont utilisées uniquement pour répondre à vos demandes."
+        "title": "1. Informations que Nous Collectons",
+        "content": "Lorsque vous utilisez nos services VTC ou nous contactez via notre site web, nous pouvons collecter les informations suivantes : votre nom, adresse e-mail, numéro de téléphone, adresses de prise en charge et de destination, informations de paiement et détails du trajet. Ces informations sont collectées lorsque vous effectuez une réservation, nous contactez pour des renseignements ou vous abonnez à notre newsletter. Nous ne collectons que les informations nécessaires pour vous fournir nos services et améliorer votre expérience."
       },
       "2": {
-        "title": "2. Utilisation des données",
-        "content": "Les données sont utilisées uniquement pour vous contacter, confirmer une réservation ou vous envoyer des informations liées à votre commande."
+        "title": "2. Comment Nous Utilisons Vos Informations",
+        "content": "Nous utilisons vos informations personnelles pour traiter vos réservations, communiquer avec vous concernant vos trajets, envoyer des confirmations de réservation et des reçus, fournir un support client, améliorer nos services, envoyer des offres promotionnelles (avec votre consentement) et respecter nos obligations légales. Nous n'utiliserons jamais vos informations à d'autres fins que celles décrites dans cette politique de confidentialité sans votre consentement explicite."
       },
       "3": {
-        "title": "3. Partage de données",
-        "content": "Nous ne partageons vos données avec aucun tiers, sauf si la loi l'exige."
+        "title": "3. Partage et Divulgation des Données",
+        "content": "Nous ne vendons, n'échangeons ni ne louons vos informations personnelles à des tiers. Nous pouvons partager vos informations avec nos chauffeurs pour honorer votre réservation, des processeurs de paiement pour gérer les transactions, des prestataires de services qui nous aident à exploiter notre entreprise, et les autorités judiciaires ou réglementaires lorsque la loi l'exige. Tous les tiers avec lesquels nous travaillons sont tenus de protéger vos données et de les utiliser uniquement aux fins que nous spécifions."
       },
       "4": {
-        "title": "4. Vos droits",
-        "content": "Vous pouvez demander à accéder, modifier ou supprimer vos données à tout moment en nous contactant."
+        "title": "4. Sécurité des Données",
+        "content": "Nous mettons en œuvre des mesures techniques et organisationnelles appropriées pour protéger vos données personnelles contre tout accès, modification, divulgation ou destruction non autorisés. Cela inclut le chiffrement des données sensibles, des serveurs sécurisés, des évaluations de sécurité régulières et un accès restreint aux informations personnelles. Cependant, aucune méthode de transmission sur Internet n'est sûre à 100% et nous ne pouvons garantir une sécurité absolue."
       },
       "5": {
-        "title": "5. Cookies",
-        "content": "Nous n'utilisons pas de cookies pour suivre votre navigation."
+        "title": "5. Cookies et Technologies de Suivi",
+        "content": "Notre site web utilise des cookies et des technologies de suivi similaires pour améliorer votre expérience de navigation, analyser le trafic du site et comprendre les préférences des utilisateurs. Vous pouvez contrôler les paramètres des cookies via les préférences de votre navigateur. Les cookies essentiels sont nécessaires au bon fonctionnement du site web, tandis que les cookies analytiques nous aident à comprendre comment les visiteurs utilisent notre site. Nous n'utilisons pas de cookies à des fins publicitaires."
+      },
+      "6": {
+        "title": "6. Vos Droits",
+        "content": "En vertu des lois applicables sur la protection des données, vous avez le droit d'accéder à vos données personnelles, de demander la correction de données inexactes, de demander la suppression de vos données, de vous opposer au traitement de vos données, de demander la limitation du traitement, la portabilité des données et de retirer votre consentement à tout moment. Pour exercer l'un de ces droits, veuillez nous contacter en utilisant les informations fournies ci-dessous. Nous répondrons à votre demande dans un délai de 30 jours."
+      },
+      "7": {
+        "title": "7. Conservation des Données",
+        "content": "Nous conservons vos informations personnelles uniquement aussi longtemps que nécessaire pour atteindre les objectifs pour lesquels elles ont été collectées, respecter nos obligations légales, résoudre les litiges et faire respecter nos accords. Les informations de réservation sont généralement conservées pendant 7 ans à des fins comptables et légales. Les données marketing sont conservées jusqu'à ce que vous vous désabonniez ou demandiez leur suppression."
+      },
+      "8": {
+        "title": "8. Services Tiers",
+        "content": "Notre site web peut contenir des liens vers des sites web ou services tiers. Nous ne sommes pas responsables des pratiques de confidentialité de ces tiers. Nous vous encourageons à lire les politiques de confidentialité de tous les sites tiers que vous visitez. Le traitement des paiements est géré par des fournisseurs de paiement tiers sécurisés qui respectent les normes de l'industrie."
+      },
+      "9": {
+        "title": "9. Confidentialité des Enfants",
+        "content": "Nos services ne s'adressent pas aux personnes de moins de 18 ans. Nous ne collectons pas sciemment d'informations personnelles auprès d'enfants. Si vous êtes parent ou tuteur et pensez que votre enfant nous a fourni des informations personnelles, veuillez nous contacter et nous supprimerons ces informations de nos systèmes."
+      },
+      "10": {
+        "title": "10. Modifications de Cette Politique",
+        "content": "Nous pouvons mettre à jour cette politique de confidentialité de temps à autre pour refléter les changements dans nos pratiques ou les exigences légales. Nous vous informerons de tout changement important en publiant la nouvelle politique sur cette page et en mettant à jour la date de 'Dernière mise à jour'. Nous vous encourageons à consulter cette politique périodiquement."
+      },
+      "11": {
+        "title": "11. Nous Contacter",
+        "content": "Si vous avez des questions, des préoccupations ou des demandes concernant cette politique de confidentialité ou nos pratiques en matière de données, veuillez nous contacter à : VTC Sud 13, Email : Btsormiou188@gmail.com, Téléphone : +33 6 50 00 45 85. Nous nous engageons à résoudre toute préoccupation en matière de confidentialité que vous pourriez avoir."
       }
     }
   },
   "termsAndConditions": {
     "title": "Conditions Générales d'Utilisation",
-    "subtitle": "Règles de base",
+    "subtitle": "Conditions de Service",
     "description": "Consultez nos conditions générales d'utilisation du service VTC à Marseille.",
     "lastUpdated": "Dernière mise à jour :",
     "sections": {
       "1": {
-        "title": "1. Acceptation des conditions",
-        "content": "L'utilisation de ce service implique l'acceptation sans réserve de ces conditions."
+        "title": "1. Acceptation des Conditions",
+        "content": "En accédant et en utilisant les services de VTC Sud 13, vous acceptez et vous engagez à respecter ces Conditions Générales. Si vous n'acceptez pas une partie de ces conditions, vous ne pouvez pas utiliser nos services. Ces conditions s'appliquent à tous les utilisateurs du service, y compris les clients, les chauffeurs et les visiteurs de notre site web. Votre utilisation continue de nos services constitue l'acceptation de toute mise à jour ou modification de ces conditions."
       },
       "2": {
-        "title": "2. Réservations",
-        "content": "Les réservations doivent être confirmées 24h à l'avance. Des frais peuvent s'appliquer en cas d'annulation tardive."
+        "title": "2. Description du Service",
+        "content": "VTC Sud 13 fournit des services de transport de véhicules de tourisme avec chauffeur (VTC) à Marseille et dans la région PACA. Nos services comprennent les transferts aéroport, le transport professionnel, les courses urbaines, les circuits touristiques et le transport événementiel. Nous opérons 24h/24 et 7j/7 avec des chauffeurs professionnels et des véhicules premium. Les services sont soumis à disponibilité et peuvent varier en fonction de l'emplacement, de l'heure et de la demande."
       },
       "3": {
-        "title": "3. Responsabilités",
-        "content": "Nous ne sommes pas responsables des retards causés par des circonstances extérieures (embouteillages, accidents, etc.)."
+        "title": "3. Réservation et Réservations",
+        "content": "Les réservations peuvent être effectuées via notre site web, par téléphone ou par e-mail. Nous recommandons de réserver au moins 24 heures à l'avance pour garantir la disponibilité, en particulier pour les transferts aéroport et les événements spéciaux. Les réservations immédiates sont soumises à la disponibilité des chauffeurs. Vous devez fournir des adresses de prise en charge et de destination précises, des coordonnées et toute exigence particulière au moment de la réservation. La confirmation sera envoyée par e-mail ou SMS."
       },
       "4": {
-        "title": "4. Paiement",
-        "content": "Le paiement s'effectue en ligne ou en espèces. Les cartes bancaires sont les bienvenues."
+        "title": "4. Tarification et Paiement",
+        "content": "Tous les prix sont indiqués en Euros et incluent la TVA. Les prix sont fixes pour les trajets pré-réservés et seront confirmés au moment de la réservation. Le paiement peut être effectué en espèces, par carte de crédit/débit ou par virement bancaire. Pour les clients professionnels, des options de facturation sont disponibles. Des frais supplémentaires peuvent s'appliquer pour le temps d'attente au-delà de la période de grâce incluse, les arrêts supplémentaires, les péages, les frais de stationnement et les services de nuit (minuit à 6h). Les prix sont susceptibles de changer sans préavis."
       },
       "5": {
-        "title": "5. Modifications",
-        "content": "Nous nous réservons le droit de modifier ces conditions à tout moment. Les utilisateurs en seront informés."
+        "title": "5. Politique d'Annulation et de Remboursement",
+        "content": "Les annulations effectuées plus de 24 heures avant l'heure de prise en charge prévue sont gratuites. Les annulations effectuées entre 12 et 24 heures avant la prise en charge entraîneront des frais d'annulation de 50%. Les annulations effectuées moins de 12 heures avant la prise en charge ou les non-présentations seront facturées au tarif complet. En cas de retards ou d'annulations de vols, nous ferons des efforts raisonnables pour accommoder les changements sans frais supplémentaires. Les remboursements seront traités dans un délai de 7 à 10 jours ouvrables."
+      },
+      "6": {
+        "title": "6. Responsabilités du Client",
+        "content": "Les clients doivent être présents au lieu de prise en charge à l'heure convenue. Un délai de grâce de 15 minutes est accordé pour les prises en charge. Les clients doivent s'assurer qu'ils disposent de tous les documents de voyage nécessaires et se conformer à toutes les lois applicables. Il est strictement interdit de fumer, de consommer de l'alcool et des substances illégales dans nos véhicules. Les clients sont responsables de tout dommage au véhicule causé par leurs actions ou celles de leurs invités. Les enfants doivent être accompagnés d'un adulte et des sièges pour enfants appropriés doivent être demandés au moment de la réservation."
+      },
+      "7": {
+        "title": "7. Conduite et Sécurité du Chauffeur",
+        "content": "Tous nos chauffeurs sont des professionnels agréés avec des permis VTC et une assurance valides. Les chauffeurs ont le droit de refuser le service aux clients qui sont en état d'ébriété, abusifs ou qui présentent un risque pour la sécurité. Les chauffeurs suivront l'itinéraire le plus efficace sauf instruction contraire du client. Pour des raisons de sécurité, les chauffeurs peuvent refuser de dévier des itinéraires prévus ou de faire des arrêts non programmés. Les chauffeurs ne sont pas autorisés à manipuler des bagages qui dépassent des limites de poids raisonnables."
+      },
+      "8": {
+        "title": "8. Responsabilité et Assurance",
+        "content": "VTC Sud 13 maintient une couverture d'assurance complète pour tous les véhicules et passagers. Nous ne sommes pas responsables des retards causés par la circulation, les conditions routières, la météo ou d'autres circonstances indépendantes de notre volonté. Nous ne sommes pas responsables des objets perdus ou oubliés sauf s'ils sont signalés dans les 24 heures suivant le trajet. La responsabilité maximale pour toute réclamation est limitée au tarif payé pour le trajet en question. Nous recommandons aux clients de souscrire leur propre assurance voyage pour une couverture complète."
+      },
+      "9": {
+        "title": "9. Force Majeure",
+        "content": "Nous ne serons pas responsables de tout manquement à l'exécution de nos obligations en raison de circonstances indépendantes de notre volonté raisonnable, y compris, mais sans s'y limiter, les catastrophes naturelles, les grèves, les troubles civils, les actions gouvernementales, les pandémies ou les conditions météorologiques extrêmes. Dans de tels cas, nous ferons des efforts raisonnables pour informer les clients et fournir des arrangements alternatifs si possible."
+      },
+      "10": {
+        "title": "10. Résolution des Litiges",
+        "content": "Tout litige découlant de ces conditions ou de nos services sera résolu par des négociations de bonne foi. Si une résolution ne peut être trouvée, les litiges seront soumis à la juridiction exclusive des tribunaux de Marseille, France. Ces conditions sont régies par le droit français. Les clients ont le droit de déposer des plaintes auprès des autorités compétentes de protection des consommateurs."
+      },
+      "11": {
+        "title": "11. Modifications des Conditions",
+        "content": "Nous nous réservons le droit de modifier ces Conditions Générales à tout moment. Les modifications prendront effet immédiatement après leur publication sur notre site web. L'utilisation continue de nos services après les modifications constitue l'acceptation des conditions modifiées. Les modifications importantes seront communiquées aux utilisateurs enregistrés par e-mail. Nous vous encourageons à consulter ces conditions périodiquement."
+      },
+      "12": {
+        "title": "12. Informations de Contact",
+        "content": "Pour toute question, préoccupation ou plainte concernant ces Conditions Générales, veuillez nous contacter à : VTC Sud 13, Email : Btsormiou188@gmail.com, Téléphone : +33 6 50 00 45 85, Adresse : Marseille, France. Notre équipe de service client est disponible 24h/24 et 7j/7 pour vous aider."
       }
     }
   }

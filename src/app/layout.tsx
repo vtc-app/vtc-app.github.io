@@ -17,8 +17,8 @@ const geistMono = Geist_Mono({
 // Fonction pour récupérer les métadonnées selon la langue
 const getMetadataByLang = (lang: string): Metadata => {
   const titles = {
-    fr: "MassiliaDrive - VTC Premium à Marseille",
-    en: "MassiliaDrive - Premium VTC in Marseille",
+    fr: "VTC Sud 13 - VTC Premium à Marseille",
+    en: "VTC Sud 13 - Premium VTC in Marseille",
   };
 
   const descriptions = {
@@ -38,19 +38,47 @@ const getMetadataByLang = (lang: string): Metadata => {
     title: titles[lang as keyof typeof titles] || titles["fr"],
     description:
       descriptions[lang as keyof typeof descriptions] || descriptions["fr"],
-    keywords: keywords,
+    keywords: [
+      // French Keywords
+      "VTC Marseille",
+      "Chauffeur privé Marseille",
+      "Transfert aéroport Marseille Provence",
+      "Transport VIP Marseille",
+      "VTC longue distance",
+      "Chauffeur de maître",
+      "Réservation VTC Marseille",
+      "Navette aéroport Marseille",
+      "Transport événementiel Provence",
+      "VTC Gare Saint-Charles",
+      "Excursion touristique Provence",
+      "VTC Sud 13",
+      
+      // English Keywords
+      "VTC Marseille",
+      "Private driver Marseille",
+      "Airport transfer Marseille Provence",
+      "VIP transport Marseille",
+      "Long distance VTC",
+      "Chauffeur service Marseille",
+      "Book VTC Marseille",
+      "Marseille airport shuttle",
+      "Event transport Provence",
+      "VTC Saint-Charles Station",
+      "Provence sightseeing tours",
+      "Luxury travel Marseille"
+    ],
     openGraph: {
       title: titles[lang as keyof typeof titles] || titles["fr"],
       description:
         descriptions[lang as keyof typeof descriptions] || descriptions["fr"],
       url: baseUrl,
-      siteName: "MassiliaDrive",
+      siteName: "VTC Sud 13",
       images: [
         {
           url: imageUrl,
           width: 1200,
           height: 630,
-          alt: "MassiliaDrive - VTC Premium",
+          alt: "VTC Sud 13 - VTC Premium",
           type: "image/jpeg",
         },
       ],

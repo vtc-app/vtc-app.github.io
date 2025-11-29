@@ -36,6 +36,34 @@ export default function TermsAndConditionsPage() {
       title: t("termsAndConditions.sections.5.title"),
       content: t("termsAndConditions.sections.5.content"),
     },
+    {
+      title: t("termsAndConditions.sections.6.title"),
+      content: t("termsAndConditions.sections.6.content"),
+    },
+    {
+      title: t("termsAndConditions.sections.7.title"),
+      content: t("termsAndConditions.sections.7.content"),
+    },
+    {
+      title: t("termsAndConditions.sections.8.title"),
+      content: t("termsAndConditions.sections.8.content"),
+    },
+    {
+      title: t("termsAndConditions.sections.9.title"),
+      content: t("termsAndConditions.sections.9.content"),
+    },
+    {
+      title: t("termsAndConditions.sections.10.title"),
+      content: t("termsAndConditions.sections.10.content"),
+    },
+    {
+      title: t("termsAndConditions.sections.11.title"),
+      content: t("termsAndConditions.sections.11.content"),
+    },
+    {
+      title: t("termsAndConditions.sections.12.title"),
+      content: t("termsAndConditions.sections.12.content"),
+    },
   ];
 
   return (

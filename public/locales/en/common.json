@@ -1,6 +1,6 @@
 {
   "welcome": "Welcome",
-  "title": "MassiliaDrive",
+  "title": "VTC Sud 13",
   "description": "Premium VTC service in Marseille",
   "hero": {
     "greeting": "Hi, there!",
@@ -17,9 +17,9 @@
     }
   },
   "introduction": {
-    "subtitle": "About MassiliaDrive",
+    "subtitle": "About VTC Sud 13",
     "title": "YOUR PRIVATE DRIVER IN MARSEILLE",
-    "description": "MassiliaDrive is your trusted partner for all your trips in the Marseille region. Experienced drivers, premium vehicles and high-end service for your comfort, punctuality and discretion.",
+    "description": "VTC Sud 13 is your trusted partner for all your trips in the Marseille region. Experienced drivers, premium vehicles and high-end service for your comfort, punctuality and discretion.",
     "cta": "Discover Our Services"
   },
   "services": {
@@ -217,7 +217,7 @@
     "heroDescription": "Your trusted partner for premium transfer services in Marseille and the PACA region",
     "story": {
       "title": "Our Story",
-      "paragraph1": "MassiliaDrive was founded with a simple mission: to provide exceptional transfer services that combine luxury, reliability, and professionalism. Since our inception, we have been committed to exceeding our clients' expectations.",
+      "paragraph1": "VTC Sud 13 was founded with a simple mission: to provide exceptional transfer services that combine luxury, reliability, and professionalism. Since our inception, we have been committed to exceeding our clients' expectations.",
       "paragraph2": "With experienced drivers in the passenger transfer industry, we have built a reputation for excellence in the Marseille region. Our team of professional drivers and premium fleet ensure that every journey is comfortable, safe, and punctual.",
       "paragraph3": "We specialize in airport transfers, business transfer, city rides, and tourist tours, serving both individual clients and corporate partners throughout the PACA region.",
       "imageAlt": "Professional VTC driver"
@@ -303,7 +303,7 @@
     }
   },
   "footer": {
-    "description": "MassiliaDrive - Professional chauffeur transfer service. Specialized in airport transfers, business transfer and private events in the Marseille region.",
+    "description": "VTC Sud 13 - Professional chauffeur transfer service. Specialized in airport transfers, business transfer and private events in the Marseille region.",
     "contactUs": "Contact us",
     "services": "Services",
     "company": "Company",
@@ -311,7 +311,9 @@
     "about": "About",
     "vehicles": "Vehicles",
     "contact": "Contact",
-    "copyright": "© {{year}} MassiliaDrive. All rights reserved."
+    "privacyPolicy": "Privacy Policy",
+    "termsAndConditions": "Terms and Conditions",
+    "copyright": "© {{year}} VTC Sud 13. All rights reserved."
   },
 
   "privacyPolicy": {
@@ -321,52 +323,104 @@
     "lastUpdated": "Last updated:",
     "sections": {
       "1": {
-        "title": "1. Data Collection",
-        "content": "We do not collect any personal data through our website. Contact information is used solely to respond to your requests."
+        "title": "1. Information We Collect",
+        "content": "When you use our VTC services or contact us through our website, we may collect the following information: your name, email address, phone number, pickup and destination addresses, payment information, and trip details. This information is collected when you make a booking, contact us for inquiries, or subscribe to our newsletter. We only collect information that is necessary to provide you with our services and improve your experience."
       },
       "2": {
-        "title": "2. Use of Data",
-        "content": "Data is used only to contact you, confirm a booking, or send information related to your order."
+        "title": "2. How We Use Your Information",
+        "content": "We use your personal information to process your bookings, communicate with you about your trips, send booking confirmations and receipts, provide customer support, improve our services, send promotional offers (with your consent), and comply with legal obligations. We will never use your information for purposes other than those described in this privacy policy without your explicit consent."
       },
       "3": {
-        "title": "3. Data Sharing",
-        "content": "We do not share your data with any third parties, except if required by law."
+        "title": "3. Data Sharing and Disclosure",
+        "content": "We do not sell, trade, or rent your personal information to third parties. We may share your information with our drivers to fulfill your booking, payment processors to handle transactions, service providers who assist us in operating our business, and law enforcement or regulatory authorities when required by law. All third parties we work with are obligated to protect your data and use it only for the purposes we specify."
       },
       "4": {
-        "title": "4. Your Rights",
-        "content": "You can request access, modification, or deletion of your data at any time by contacting us."
+        "title": "4. Data Security",
+        "content": "We implement appropriate technical and organizational measures to protect your personal data against unauthorized access, alteration, disclosure, or destruction. This includes encryption of sensitive data, secure servers, regular security assessments, and restricted access to personal information. However, no method of transmission over the internet is 100% secure, and we cannot guarantee absolute security."
       },
       "5": {
-        "title": "5. Cookies",
-        "content": "We do not use cookies to track your browsing activity."
+        "title": "5. Cookies and Tracking Technologies",
+        "content": "Our website uses cookies and similar tracking technologies to enhance your browsing experience, analyze site traffic, and understand user preferences. You can control cookie settings through your browser preferences. Essential cookies are necessary for the website to function properly, while analytics cookies help us understand how visitors use our site. We do not use cookies for advertising purposes."
+      },
+      "6": {
+        "title": "6. Your Rights",
+        "content": "Under applicable data protection laws, you have the right to access your personal data, request correction of inaccurate data, request deletion of your data, object to processing of your data, request restriction of processing, data portability, and withdraw consent at any time. To exercise any of these rights, please contact us using the information provided below. We will respond to your request within 30 days."
+      },
+      "7": {
+        "title": "7. Data Retention",
+        "content": "We retain your personal information only for as long as necessary to fulfill the purposes for which it was collected, comply with legal obligations, resolve disputes, and enforce our agreements. Booking information is typically retained for 7 years for accounting and legal purposes. Marketing data is retained until you unsubscribe or request deletion."
+      },
+      "8": {
+        "title": "8. Third-Party Services",
+        "content": "Our website may contain links to third-party websites or services. We are not responsible for the privacy practices of these third parties. We encourage you to read the privacy policies of any third-party sites you visit. Payment processing is handled by secure third-party payment providers who comply with industry standards."
+      },
+      "9": {
+        "title": "9. Children's Privacy",
+        "content": "Our services are not directed to individuals under the age of 18. We do not knowingly collect personal information from children. If you are a parent or guardian and believe your child has provided us with personal information, please contact us, and we will delete such information from our systems."
+      },
+      "10": {
+        "title": "10. Changes to This Policy",
+        "content": "We may update this privacy policy from time to time to reflect changes in our practices or legal requirements. We will notify you of any material changes by posting the new policy on this page and updating the 'Last Updated' date. We encourage you to review this policy periodically."
+      },
+      "11": {
+        "title": "11. Contact Us",
+        "content": "If you have any questions, concerns, or requests regarding this privacy policy or our data practices, please contact us at: VTC Sud 13, Email: Btsormiou188@gmail.com, Phone: +33 6 50 00 45 85. We are committed to resolving any privacy concerns you may have."
       }
     }
   },
   "termsAndConditions": {
     "title": "Terms and Conditions",
-    "subtitle": "Basic rules",
+    "subtitle": "Terms of Service",
     "description": "Review our terms and conditions for using our VTC service in Marseille.",
     "lastUpdated": "Last updated:",
     "sections": {
       "1": {
         "title": "1. Acceptance of Terms",
-        "content": "Using this service implies acceptance of these terms without reservation."
+        "content": "By accessing and using VTC Sud 13 services, you accept and agree to be bound by these Terms and Conditions. If you do not agree with any part of these terms, you may not use our services. These terms apply to all users of the service, including customers, drivers, and visitors to our website. Your continued use of our services constitutes acceptance of any updates or modifications to these terms."
       },
       "2": {
-        "title": "2. Bookings",
-        "content": "Bookings must be confirmed 24 hours in advance. Cancellation fees may apply for late cancellations."
+        "title": "2. Service Description",
+        "content": "VTC Sud 13 provides private hire vehicle (VTC) transportation services in Marseille and the PACA region. Our services include airport transfers, business transportation, urban rides, tourist tours, and event transportation. We operate 24/7 with professional drivers and premium vehicles. Services are subject to availability and may vary based on location, time, and demand."
       },
       "3": {
-        "title": "3. Responsibilities",
-        "content": "We are not responsible for delays caused by external circumstances (traffic, accidents, etc.)."
+        "title": "3. Booking and Reservations",
+        "content": "Bookings can be made through our website, phone, or email. We recommend booking at least 24 hours in advance for guaranteed availability, especially for airport transfers and special events. Immediate bookings are subject to driver availability. You must provide accurate pickup and destination addresses, contact information, and any special requirements at the time of booking. Confirmation will be sent via email or SMS."
       },
       "4": {
-        "title": "4. Payment",
-        "content": "Payment is made online or in cash. Credit cards are welcome."
+        "title": "4. Pricing and Payment",
+        "content": "All prices are quoted in Euros and include VAT. Prices are fixed for pre-booked journeys and will be confirmed at the time of booking. Payment can be made by cash, credit/debit card, or bank transfer. For corporate clients, invoicing options are available. Additional charges may apply for waiting time beyond the included grace period, extra stops, tolls, parking fees, and late-night services (midnight to 6 AM). Prices are subject to change without notice."
       },
       "5": {
-        "title": "5. Changes",
-        "content": "We reserve the right to modify these terms at any time. Users will be informed accordingly."
+        "title": "5. Cancellation and Refund Policy",
+        "content": "Cancellations made more than 24 hours before the scheduled pickup time are free of charge. Cancellations made between 12-24 hours before pickup will incur a 50% cancellation fee. Cancellations made less than 12 hours before pickup or no-shows will be charged the full fare. In case of flight delays or cancellations, we will make reasonable efforts to accommodate changes without additional charges. Refunds will be processed within 7-10 business days."
+      },
+      "6": {
+        "title": "6. Customer Responsibilities",
+        "content": "Customers must be present at the pickup location at the agreed time. A grace period of 15 minutes is provided for pickups. Customers must ensure they have all necessary travel documents and comply with all applicable laws. Smoking, consumption of alcohol, and illegal substances are strictly prohibited in our vehicles. Customers are liable for any damage to the vehicle caused by their actions or those of their guests. Children must be accompanied by an adult, and appropriate child seats must be requested at the time of booking."
+      },
+      "7": {
+        "title": "7. Driver Conduct and Safety",
+        "content": "All our drivers are licensed professionals with valid VTC permits and insurance. Drivers have the right to refuse service to customers who are intoxicated, abusive, or pose a safety risk. Drivers will follow the most efficient route unless otherwise instructed by the customer. For safety reasons, drivers may refuse to deviate from planned routes or make unscheduled stops. Drivers are not permitted to handle luggage that exceeds reasonable weight limits."
+      },
+      "8": {
+        "title": "8. Liability and Insurance",
+        "content": "VTC Sud 13 maintains comprehensive insurance coverage for all vehicles and passengers. We are not liable for delays caused by traffic, road conditions, weather, or other circumstances beyond our control. We are not responsible for lost or forgotten items unless reported within 24 hours of the journey. Maximum liability for any claim is limited to the fare paid for the journey in question. We recommend customers maintain their own travel insurance for comprehensive coverage."
+      },
+      "9": {
+        "title": "9. Force Majeure",
+        "content": "We shall not be liable for any failure to perform our obligations due to circumstances beyond our reasonable control, including but not limited to natural disasters, strikes, civil unrest, government actions, pandemics, or severe weather conditions. In such cases, we will make reasonable efforts to notify customers and provide alternative arrangements where possible."
+      },
+      "10": {
+        "title": "10. Dispute Resolution",
+        "content": "Any disputes arising from these terms or our services shall be resolved through good faith negotiations. If a resolution cannot be reached, disputes will be subject to the exclusive jurisdiction of the courts of Marseille, France. These terms are governed by French law. Customers have the right to file complaints with relevant consumer protection authorities."
+      },
+      "11": {
+        "title": "11. Modifications to Terms",
+        "content": "We reserve the right to modify these Terms and Conditions at any time. Changes will be effective immediately upon posting on our website. Continued use of our services after changes constitutes acceptance of the modified terms. Material changes will be communicated to registered users via email. We encourage you to review these terms periodically."
+      },
+      "12": {
+        "title": "12. Contact Information",
+        "content": "For questions, concerns, or complaints regarding these Terms and Conditions, please contact us at: VTC Sud 13, Email: Btsormiou188@gmail.com, Phone: +33 6 50 00 45 85, Address: Marseille, France. Our customer service team is available 24/7 to assist you."
       }
     }
   }

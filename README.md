@@ -1,4 +1,4 @@
-# MassiliaDrive - Website
+# VTC Sud 13 - Website
 
 ## Project Description
 

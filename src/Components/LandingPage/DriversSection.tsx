@@ -16,10 +16,10 @@ export default function DriversSection() {
       ratingSource: "Uber",
       quote:
         "Votre confort et votre ponctualité sont ma priorité absolue. Je m'engage à vous offrir un service irréprochable à chaque trajet.",
-      phone: "+33 6 47 52 87 85",
+      phone: "+33647528785",
       social: {
         linkedin: "#",
-        whatsapp: "https://wa.me/0033647528785",
+        whatsapp: "https://wa.me/+33647528785",
         email: "Anis.Ouerghi93@gmail.com",
       },
     },
@@ -32,44 +32,44 @@ export default function DriversSection() {
       ratingSource: "Bolt",
       quote:
         "Découvrir Marseille avec mes clients, c'est partager ma passion pour cette ville. Je vous emmène explorer les plus beaux endroits de la région.",
-      phone: "00336500045858",
+      phone: "+33 6 50 00 45 85",
       social: {
         linkedin: "#",
-        whatsapp: "https://wa.me/00336500045858",
+        whatsapp: "https://wa.me/336500045858",
         email: "Btsormiou188@gmail.com",
       },
     },
     {
       name: "Djamel mechia",
       image:
-        "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=600&h=600&fit=crop&crop=face",
+        "/img/drivers/Djammel.jpg",
       languages: ["Français", "Arabe"],
       speciality: "Chauffeur VTC - Événements de Luxe, Mariages",
       rating: 4.8,
       ratingSource: "Bolt",
       quote:
         "Chaque trajet est une expérience unique que je rends mémorable. Mon objectif est de dépasser vos attentes à chaque voyage.",
-      phone: "+33 7 81 59 11 80",
+      phone: "+33781591180",
       social: {
         linkedin: "#",
-        whatsapp: "https://wa.me/0033781591180",
+        whatsapp: "https://wa.me/+33781591180",
         email: "djamel.mechia@yahoo.fr",
       },
     },
     {
       name: "Riadh Zigham",
       image:
-        "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=600&h=600&fit=crop&crop=face",
+        "/img/drivers/Riadh.jpg",
       languages: ["Français", "Arabe"],
       speciality: "Chauffeur VTC - Transfert Professionnel, Cadres",
       rating: 4.98,
       ratingSource: "Uber",
       quote:
         "L'excellence dans le service, c'est dans les détails que ça se joue. Je porte une attention particulière à chaque aspect de votre voyage.",
-      phone: "+33 7 82 31 77 73",
+      phone: "+33782317773",
       social: {
         linkedin: "#",
-        whatsapp: "https://wa.me/0033782317773",
+        whatsapp: "https://wa.me/+33782317773",
         email: "reredu13b@gmail.com",
       },
     },

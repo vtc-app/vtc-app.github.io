@@ -333,7 +333,7 @@ export default function VehiclesPage() {
                 href="tel:0486123456"
                 className="bg-white text-primary hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors duration-300"
               >
-                04 86 12 34 56
+                +336500045858
               </a>
               <a
                 href="/contact"

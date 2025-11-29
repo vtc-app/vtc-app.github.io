@@ -221,7 +221,7 @@ export default function CoverageAreaSection() {
                 <h4 className="font-semibold text-gray-900 mb-2">
                   Réservation Rapide
                 </h4>
-                <p className="text-sm text-gray-600">04 XX XX XX XX</p>
+                <p className="text-sm text-gray-600">+33 6 50 00 45 85</p>
               </div>
 
               <div className="text-center">

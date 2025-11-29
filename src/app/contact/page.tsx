@@ -396,10 +396,10 @@ export default function ContactPage() {
                       {t("contact.phone")}
                     </h4>
                     <a
-                      href="tel:0486123456"
+                      href="tel:+336500045858"
                       className="text-primary hover:text-primary-dark transition-colors"
                     >
-                      <p className="text-gray-600">04 86 12 34 56</p>
+                      <p className="text-gray-600">+336500045858</p>
                     </a>
                   </div>
                 </div>
@@ -429,7 +429,7 @@ export default function ContactPage() {
                   allowFullScreen={true}
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="MassiliaDrive Location"
+                  title="VTC Sud 13 Location"
                 ></iframe>
               </div>
             </div>

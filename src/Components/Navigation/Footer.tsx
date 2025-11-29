@@ -35,7 +35,7 @@ export default function Footer() {
           <Link href="/" className="block h-8 w-fit">
             <Image
               src="/img/logos/logo_white.png"
-              alt="MassiliaDrive Logo"
+              alt="VTC Sud 13 Logo"
               width={200}
               height={32}
               className="h-8 w-auto"
@@ -96,42 +96,24 @@ export default function Footer() {
           {t("footer.copyright", { year: new Date().getFullYear() })}
         </p>
         <div className="flex gap-6 mt-4 md:mt-0">
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://www.facebook.com"
+          <Link
+            href="/privacy-policy"
             className="hover:text-primary transition-colors"
-            aria-label="Facebook"
           >
-            Facebook
-          </a>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://twitter.com"
+            {t("footer.privacyPolicy")}
+          </Link>
+          <Link
+            href="/terms-and-conditions"
             className="hover:text-primary transition-colors"
-            aria-label="Twitter"
           >
-            Twitter
-          </a>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://www.linkedin.com"
+            {t("footer.termsAndConditions")}
+          </Link>
+          <Link
+            href="/about"
             className="hover:text-primary transition-colors"
-            aria-label="LinkedIn"
           >
-            LinkedIn
-          </a>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://wa.me"
-            className="hover:text-primary transition-colors"
-            aria-label="WhatsApp"
-          >
-            WhatsApp
-          </a>
+            {t("footer.about")}
+          </Link>
         </div>
       </div>
     </footer>

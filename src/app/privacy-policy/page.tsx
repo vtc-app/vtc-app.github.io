@@ -36,6 +36,30 @@ export default function PrivacyPolicyPage() {
       title: t("privacyPolicy.sections.5.title"),
       content: t("privacyPolicy.sections.5.content"),
     },
+    {
+      title: t("privacyPolicy.sections.6.title"),
+      content: t("privacyPolicy.sections.6.content"),
+    },
+    {
+      title: t("privacyPolicy.sections.7.title"),
+      content: t("privacyPolicy.sections.7.content"),
+    },
+    {
+      title: t("privacyPolicy.sections.8.title"),
+      content: t("privacyPolicy.sections.8.content"),
+    },
+    {
+      title: t("privacyPolicy.sections.9.title"),
+      content: t("privacyPolicy.sections.9.content"),
+    },
+    {
+      title: t("privacyPolicy.sections.10.title"),
+      content: t("privacyPolicy.sections.10.content"),
+    },
+    {
+      title: t("privacyPolicy.sections.11.title"),
+      content: t("privacyPolicy.sections.11.content"),
+    },
   ];
 
   return (
